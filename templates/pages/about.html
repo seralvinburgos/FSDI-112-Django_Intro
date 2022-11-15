@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}HomeAbout Me{% endblock title %}
+
+{% block content %}
+<h1>About Me</h1>
+<p>I am an aspiring Software Developer, coming from a full career in Emergency Medicine. Software Development has always been an interest to me, simply because I've always wondered whether or not I would be able to do it. My hope is to one day, merge the positive attributes of both React and Django, in order to form my own framework called...nevermind</p>
+<img class='about-img' src="{% static 'img/puppy.jpeg' %}">
+{% endblock content %}
